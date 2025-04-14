@@ -48,3 +48,14 @@ if current_mode:
 else:
 	# TODO
 	print("f_bw: " + displayNum(min(f_rhp / 5, f_sw / 10), 1) + "Hz")
+
+# Feedback network:
+#       |\
+#       |+\
+#       |  >-------|
+#   |---|-/        |
+#   |   |/         |
+#   -------||-------
+#   |    Ccomp1    |
+#   ---||-----/\/\--
+#    Ccomp2  Rcomp2

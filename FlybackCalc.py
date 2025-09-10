@@ -5,15 +5,15 @@ def displayNum(num):
 	num /= 10**(idx * 3)
 	return str(round(num, 3)) + units[idx + 5]
 
-VinMin = 120
-Vout = 24
-Vf = 0.6
-D = 0.4
-efcy = 0.85
-Fsw = 600e3
-Pout = 60
-Bm = 0.2
-Ae = 12.5e-6
+VinMin = 12
+Vout = 4.2
+Vf = 0.4
+D = 0.44
+efcy = 0.8
+Fsw = 300e3
+Pout = 3
+Bm = 0.1
+Ae = 10.9e-6
 
 Lp = efcy * D**2 * VinMin**2 / (2 * Fsw * Pout)
 Ipk = 2*Pout / (efcy * VinMin * D)

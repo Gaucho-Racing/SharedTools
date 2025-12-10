@@ -11,8 +11,8 @@ def displayNum(num, n_digit = 3):
 
 mu_0 = 1.25663706212e-6
 
-L = 12e-6
-I = 1.42
+L = 1e-6
+I = 30
 
 ############ Materials ############
 # note: Bmax numbers are at 100C with additional safety margin
@@ -21,8 +21,8 @@ I = 1.42
 # mu_r = 2400
 # Bmax = 0.35
 # PC95 800k
-# mu_r = 3300
-# Bmax = 0.35
+mu_r = 3300
+Bmax = 0.35
 # 3C96 400k
 # mu_r = 2800
 # Bmax = 0.3
@@ -30,8 +30,8 @@ I = 1.42
 # mu_r = 2300
 # Bmax = 0.3
 # PC40 300k
-mu_r = 2300
-Bmax = 0.3
+# mu_r = 2300
+# Bmax = 0.3
 # PC200 3M
 # mu_r = 800
 # Bmax = 0.075
@@ -52,8 +52,8 @@ isTransformer = True
 # A_e = 12.5e-6
 # l_m = 30.6e-3
 # EE10
-A_e = 10.9e-6
-l_m = 26.3e-3
+# A_e = 10.9e-6
+# l_m = 26.3e-3
 # EE19
 # A_e = 23e-6
 # l_m = 39.4e-3
@@ -67,8 +67,8 @@ l_m = 26.3e-3
 # A_e = 122.2e-6
 # l_m = 53.5e-3
 # PQ20/20
-# A_e = 62.6e-6
-# l_m = 45.7e-3
+A_e = 62.6e-6
+l_m = 45.7e-3
 # EL25X8.6
 # A_e = 85.6e-6
 # l_m = 30.0e-3

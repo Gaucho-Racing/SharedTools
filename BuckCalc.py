@@ -7,13 +7,13 @@ def displayNum(num, n_digit = 3):
 		return str(round(num, n_digit)) + units[idx + 5]
 	return str(round(num)) + units[idx + 5]
 
-V_in = 12
-V_out = 2.4
-I_out = 52.5
-f_sw = 320e3
+V_in = 60
+V_out = 40
+I_out = 50
+f_sw = 100e3
 K_v_ripple = 0.01
 K_v_in_ripple = 0.01
-K_i_ccm = 0.115
+K_i_ccm = 0.2
 
 V_ripple = V_out * K_v_ripple
 I_ripple = I_out * K_i_ccm * 2

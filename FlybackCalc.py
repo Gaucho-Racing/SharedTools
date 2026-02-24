@@ -5,14 +5,14 @@ def displayNum(num):
 	num /= 10**(idx * 3)
 	return str(round(num, 3)) + units[idx + 5]
 
-VinMin = 12
-Vout = 4.2
+VinMin = 170
+Vout = 80
 Vf = 0.4
-D = 0.44
-efcy = 0.8
+D = 0.4
+efcy = 0.9
 Fsw = 300e3
-Pout = 3
-Bm = 0.1
+Pout = 20
+Bm = 0.2
 Ae = 10.9e-6
 
 Lp = efcy * D**2 * VinMin**2 / (2 * Fsw * Pout)
